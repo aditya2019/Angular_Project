@@ -1,0 +1,103 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+</head><!--The content below is only a placeholder and can be replaced.-->
+<body>
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">HD Movies</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a routerLink="/nowplay">New Movies</a>
+      </li>
+      <li class="nav-item">
+        <a routerLink="/popular">Popular Movies</a>
+      </li>
+      <li class="nav-item">
+      <a routerLink="/toprated">Top Rated Movies</a>
+      </li>
+      <li class="nav-item">
+      <a routerLink="/upcoming">Upcoming Movies</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container" style="padding-top:20px;">
+  <div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+     </div>
+
+  </div>
+</div>
+<router-outlet></router-outlet>
+<!--____________footer start ____________________________________-->
+<footer class="footer-set">
+<div class="container">
+  <div class="row text-center text-md-left">
+          <!--First column-->
+    <div class="col-md-3 col-lg-3 col-xl-3">
+      <h4 class="title mb-4 font-bold">About</h4>
+        <p>Talking about time is a very basic skill, but one that can often cause problems, especially if your main language thinks about time in a different way.</p>
+    </div>
+            <!--Second column-->
+    <div class="col-md-3 col-lg-3 col-xl-3">
+      <h4 class="title ">Category</h4>
+        <p><a href="#">New Movies</a></p>
+        <p><a href="#">Upcomming</a></p>
+        <p><a href="#">Popular</a></p>
+        <p><a href="#">Most view</a></p>
+    </div>
+            <!--/.Second column-->
+            <!--Third column-->
+    <div class="col-md-3 col-lg-2 col-xl-2">
+       <h4 class="title font-bold">Useful links</h4>
+        <p><a href="#">Your Account</a></p>
+        <p><a href="#">Private Policy</a></p>
+        <p><a href="#">Events</a></p>
+        <p><a href="#">Help</a></p>
+    </div>
+            <!--/.Third column-->
+            <!--Fourth column-->
+    <div class="col-md-3 col-lg-3 col-xl-3">
+       <h4 class="title font-bold">Contact Us</h4>
+        <p><i class="fa fa-home mr-3"></i> Beta-1,Greater Noida</p>
+        <p><i class="fa fa-envelope mr-3"></i> Myshop.com</p>
+        <p><i class="fa fa-print mr-3"></i> + 01 785 77 544</p>
+        <p><i class="fa fa-phone mr-3"></i> + 91 9599850122</p>
+      </div>
+            <!--/.Fourth column-->
+      </div>
+    <hr>
+<div class="row">
+<!--Grid column-->
+<div class="col-md-8 col-lg-6">
+  <!--Copyright-->
+  <p class="text-center text-md-left grey-text">© 2019 Copyright:
+  <a href="https://www.HDMovies.com">
+  <strong> HD Movies</strong></a>
+  </p>
+  <!--/.Copyright-->
+</div>
+<!--Grid column-->
+<div class="col-md-4 col-lg-6 ml-lg-0">
+ <div class="text-center text-md-left">
+ <a href="#"><i class="rounded-circle fa fa-facebook fa-2x pr-1"></i></a>
+ <a href="#"><i class="fa fa-twitter fa-2x pr-1"></i></a>
+ <a href="#"><i class="fa fa-google fa-2x pr-1"></i></a>
+ <a href="#"><i class="fa fa-linkedin fa-2x pr-1"></i></a>
+</div>
+</div>
+<!--Grid column-->
+</div>
+</div>
+</footer>
+</body>

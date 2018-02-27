@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
+     text-width: 4px;
+}
+.card
+{
+  padding: 2px;
+  text-align: center;
+  margin: 5px;
+}
+.card-title
+{
+  padding-top: 10px;
+  overflow: auto;
+}
+.card-text
+{
+  margin-top: 3px;
+}

@@ -1,0 +1,23 @@
+li{
+  padding-left: 20px !important;
+}
+a{
+  color: white;
+}
+body{
+  background-color: #d5dbdb;
+}
+
+
+.footer-set{
+color: white;
+background-color: black;
+margin-top: 10px;
+}
+.title
+{
+  padding-top: 3rem;
+}
+#paginationstyle{
+ text-align: center;
+}

@@ -1,0 +1,15 @@
+<h1>Popular Movies</h1>
+<div class="container">
+<div class="row">
+<div class="col-md-2 col-md-3 py-2" *ngFor="let item of popData">
+	<div class="card">
+		<img class="card-img-top" [attr.src]="baseUrl+item.poster_path" alt="Card image cap">
+		<div class="card-block">
+			<h6 class="card-title">{{item.title}}</h6>
+			<p class="card-text">{{item.release_date}}</p>
+
+		</div>
+	</div>
+</div>
+</div>
+</div>
